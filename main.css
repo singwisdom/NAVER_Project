@@ -1,0 +1,179 @@
+.li-read{
+width:93px; 
+border-right:1px solid #e4e8eb; 
+text-align:center;
+padding-bottom:15px;
+padding-top:15px;
+font-weight:bold;
+}
+
+.naver-tv{
+margin-bottom:20px;
+}
+
+
+
+body{
+overflow-x:hidden;
+}
+
+.head_contain{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.nav-li-green{
+  padding-right:12px;
+  padding-top:15px;
+  color: #03c75a;
+  font-weight: bold;
+}
+
+.nav-li-black{
+  padding-right:20px;
+  padding-top:15px;
+  color: black;
+  font-weight: bold;
+}
+
+
+.btn_login{
+font-size:18px;
+color:white;
+background-color:#19ce60;
+margin-top:10px;
+padding-top:5px;
+padding-bottom:5px;
+border:none;
+outline:0;
+width:260px;
+height:50px;
+}
+
+.navcontainer{
+ width:60%;
+  margin:0 auto;
+ display: inline-block;
+}
+
+.navbar {
+  text-align:center;
+  padding-top: 5px;
+  padding-bottom: 16px;
+  border-radius: 0;
+  font-size: 15px;
+  background-color: white;
+  border:2px solid #e4e8eb;
+  border-left: none;
+  border-right: none;
+}
+
+.search-box{
+  height:50px;
+  width: 570px;
+  border: none;
+  outline:none;
+border-top:none;
+border-left:none;
+border-right:none;
+border-bottom:none;
+  margin-top: 5px;
+}
+
+.search-icon{
+  font-size:30px;
+  color: white;
+  height:70px;
+  width: 70px;
+  border-radius: 0px;
+  background-color:#19ce60;
+  border:none;
+}
+
+.green-window{
+  width: 600px;
+  height:70px;
+  border :3px solid #19ce60;
+  border-radius: 0px;
+}
+
+.weather_info{
+  text-align:right;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.shopping_title{
+margin-bottom:20px;
+}
+
+div{
+overflow:hidden;
+height:auto;
+}
+
+.shopping_content{
+border:1px solid #e4e8eb;
+}
+
+
+.s_title{
+font-size:12px;
+margin-right:10px;
+margin-left:10px;
+}
+
+.s_title_2{
+font-size:12px;
+margin-right:5px;
+margin-left:5px;
+}
+
+.shopping-shop{
+background-color:#f7f9fa;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.s-img{
+text-align:center;
+font-size:12px;
+padding-right:0px;
+padding-left:0px;
+margin-bottom:10px;
+}
+
+.shopping-list{
+margin-top:15px;
+padding-left:20px;
+}
+
+.shopping-list li::marker{
+color:#09ce20;
+}
+
+.shopping-li{
+margin-bottom:10px;
+}
+
+.shopping-banner-list{
+ list-style:none;
+padding-left:10px;
+}
+
+.banner-li{
+display:inline;
+}
+
+.banner-img{
+padding-left:0px;
+padding-right:0px;
+display:inline-block;
+
+}
+
+.footer-li{
+  display:inline; 
+  list-style: none; 
+  margin-right:10px;
+}
