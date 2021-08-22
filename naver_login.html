@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <title>네이버 : 로그인 </title>
     </head>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="./css/login.css">
 
     <body>
         <div class="wrap">
@@ -16,9 +16,9 @@
             <div id="form">
                 <div>
                     <form>
-                        <input type="text" placeholder=" 아이디" class="login-field"><br>
-                        <input type="password" placeholder=" 비밀번호" class="login-field"><br>
-                        <input type="submit" value="로그인" class="btn-login">
+                        <input id="ID" type="text" placeholder=" 아이디" class="login-field"><br>
+                        <input id="PW" type="password" placeholder=" 비밀번호" class="login-field"><br>
+                        <input type="submit" value="로그인" class="btn-login" onclick="login(); return false;">
                     </form>
                 </div>
     
@@ -39,7 +39,7 @@
                 <h3>더욱 간편한 로그인</h3>
             </div>
 
-            <div>
+            <div style="height: 70px;">
                 <div class="col-sm-6">
                     <button type="button" class="login-type-btn"><img src="img/icon/qr.png"><span class="bold">QR코드 로그인</span></button>
                 </div>
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <div>
+            <div id="find" style="margin-top: 20px;">
                 <div class="inline-block login-find">아이디 찾기</div>
                 <div class="inline-block login-find">비밀번호 찾기</div>
                 <div class="inline-block login-find">회원가입</div>
@@ -77,3 +77,4 @@
         </footer>
     </body>
 </html>
+<script src="./login.js"></script>

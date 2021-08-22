@@ -37,6 +37,8 @@ footer{
     margin-bottom: 10px;
 }
 
+input:focus {outline:1px solid #03c75a;}
+
 .inline-block{
     display: inline-block;
 }
@@ -54,6 +56,7 @@ footer{
 .footer-ul > li{
     list-style-type: none;
     display: inline;
+    font-size: 13px;
 }
 .bold{
     font-weight: bold;
@@ -69,5 +72,17 @@ footer{
     margin-top: 15px;
 }
 .security{
+    color: gray;
+}
+#find > div::after{
+    content: "|";
+    font-size: medium;
+    margin-left: 5px;
+    color: gray;
+}
+.footer-ul > li::after{
+    content: "|";
+    font-size: medium;
+    margin-left: 5px;
     color: gray;
 }

@@ -46,7 +46,7 @@ padding-top:5px;
 padding-bottom:5px;
 border:none;
 outline:0;
-width:260px;
+width:300px;
 height:50px;
 }
 
@@ -60,12 +60,15 @@ height:50px;
   text-align:center;
   padding-top: 5px;
   padding-bottom: 16px;
+  padding-left: 100px;
+  padding-right: 100px;
   border-radius: 0;
   font-size: 15px;
   background-color: white;
   border:2px solid #e4e8eb;
   border-left: none;
   border-right: none;
+  width: 100%;
 }
 
 .search-box{
@@ -97,10 +100,8 @@ border-bottom:none;
   border-radius: 0px;
 }
 
-.weather_info{
-  text-align:right;
-  display: inline-block;
-  font-size: 13px;
+.shopping_img span {
+  font-size: 11px;
 }
 
 .shopping_title{
@@ -135,7 +136,7 @@ padding-top:10px;
 padding-bottom:10px;
 }
 
-.s-img{
+.shopping-shop > img{
 text-align:center;
 font-size:12px;
 padding-right:0px;
@@ -165,7 +166,7 @@ padding-left:10px;
 display:inline;
 }
 
-.banner-img{
+.banner-li > img{
 padding-left:0px;
 padding-right:0px;
 display:inline-block;
@@ -176,4 +177,44 @@ display:inline-block;
   display:inline; 
   list-style: none; 
   margin-right:10px;
+}
+
+.weather_info ul,li{list-style-type: none;}
+.weather_info{
+  width: 330px; 
+  overflow: hidden;
+  margin-top: 10px;
+  font-size: 13px;
+  float: right;
+  height: 25px;
+}
+.weather_info ul{display: flex;}
+.weather_info li{width: 270px;  margin-right:50px; height: auto;}
+
+
+.logout{
+  position: absolute;
+  border: none;
+  top: 25px;
+  right: 25px;
+  padding: 6px 10px 6px 11px;
+  background-color: #ccd0d4;
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+  font-size: 11px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.myinfo{
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  right: 0;
+  bottom: 0;
+  opacity: .7;
+  background-color: white;
+  border: 1px solid #000;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
